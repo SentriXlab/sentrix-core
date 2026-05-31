@@ -15,3 +15,7 @@ services:
 
 volumes:
   sentrix_core_db_data:
+
+sentrix:
+  demo-server:
+    actuator-url: http://localhost:8080/actuator/prometheus
